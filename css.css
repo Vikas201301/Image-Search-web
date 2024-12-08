@@ -1,0 +1,200 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(https://th.bing.com/th/id/R.f07e4c022da8dde04d8863513226626b?rik=UougyTEPu23%2bPw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-UZ8SmR9mMIo%2fVlohoyg2OSI%2fAAAAAAAAnvs%2fJWEFSAhU0J8%2fs1600%2fLovely-HD-white-fox-wallpaper-free-download.jpg&ehk=4dpfGSwg3USICnKQaHdHlKHd7UoE4nx1Vo039LRGdS4%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: normal;
+    font-style: italic;
+    font-family: cursive;
+    margin: 90px 0px 0px 500px;
+}
+ 
+
+form input {
+    margin: 40px 0px 0px 450px;
+    padding: 20px 40px 20px 100px;
+    background-color: rgb(38, 69, 75);
+    font-size: 20px;
+    border: none;
+    border-bottom: solid gray;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+ ::placeholder {
+    color: white;
+}
+
+form button {
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    padding: 20px 50px;
+    box-shadow: 5px 5px 8px black;
+    cursor: pointer;
+}
+
+form button :hover {
+    background-color: aqua;
+    text-transform: capitalize;
+    transform: scale(1.5)
+}
+
+#show-more {
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 0px 650px;
+    background-color: rgb(136, 26, 118);
+    box-shadow: 10px 9px 9px -8px black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: rgb(230, 229, 229);
+    font-weight: 500;
+    border: none;
+    display: none;
+    cursor: pointer;
+    font-size: larger;
+    font-family: cursive;
+}
+
+#show-more:hover {
+    background-color: transparent;
+    box-shadow: 10px 9px 9px 10 black;
+    background: transparent;
+}
+
+#search-result {
+    display: grid;
+    margin: 100px auto 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    grid-row: 4;
+    grid-gap: 40px;
+}
+
+#search-result img {
+    height: 230px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: none;
+    box-shadow: 0px 5px 8px rgb(138, 132, 132);
+    
+    
+}
+
+#search-result img:hover {
+    opacity: .9;
+    transform: scale(1.1);
+    transform-style: preserve-3d;
+
+}
+
+
+ section {
+
+
+
+    background-image: url(https://th.bing.com/th/id/R.f07e4c022da8dde04d8863513226626b?rik=UougyTEPu23%2bPw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-UZ8SmR9mMIo%2fVlohoyg2OSI%2fAAAAAAAAnvs%2fJWEFSAhU0J8%2fs1600%2fLovely-HD-white-fox-wallpaper-free-download.jpg&ehk=4dpfGSwg3USICnKQaHdHlKHd7UoE4nx1Vo039LRGdS4%3d&risl=&pid=ImgRaw&r=0);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 8px black;
+}
+
+section p {
+    color: green;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 600;
+    margin-left: -52px;
+}
+
+section p span {
+    color: blue;
+}
+
+section ul {
+    display: flex;
+    color: rgb(52, 62, 121);
+}
+
+section ul li {
+    list-style: none;
+    color: rgb(81, 37, 117);
+    padding: 0px 35px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+section ul li a {
+    list-style: none;
+    color: rgb(158, 95, 23);
+    background-color:transparent;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-delay: 0.3s;
+}
+
+section ul li a:hover {
+    color: rgb(53, 131, 53);
+    background-color: transparent;
+    transition: 0.3s;
+    text-transform: capitalize;
+    transform: scale(1.5);
+    box-shadow: 0px 0px 8px black;
+    
+    padding: 5px 10px;
+    font-weight: 600;
+    border: none;
+    border-bottom: solid 3px ;
+    z-index: 1;
+    border-radius: 5px;
+}
+nav  {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(14, 13, 13);
+
+}
+#login{
+    margin-top: 250px;
+    margin-left: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 5px 5px;
+    background-color: rgb(198, 209, 198);
+    height: 250px;
+    width: 250px;
+    
+} 
+#in{
+background-color: aqua;
+height: 10px ;
+width: 100px;
+
+}
+#login ::placeholder{
+    color: orange;
+    font-size: 20px;
+}
+#login :hover{
+    display: block;
+}
